@@ -7,44 +7,46 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div>
-        <h1 id='title'>Learning Preference Survey</h1>
-        <p id='description'>How do you like to study English?</p>
-    </div>
-    <form id='survey-form'>
-      <fieldset>
-        <label id='name-label'>Name</lable>
-        <input id='name' placeholder='What is your name?' type='text' required>
-        <label id='email-label'>Email</lable>
-        <input id='email' placeholder='What is your email?' type='email' required>
-        <label id='number-label'>Age</lable>
-        <input id='number' placeholder='How old are you?' type='number' min='18' max='100'>
-      </fieldset>
-      <fieldset>
-      <select id='dropdown'>
-        <option>Select Study Preference</option>
-        <option>Alone</option>
-        <option>face-to-face group</option>
-        <option>Online group</option>
-       </fieldset>
-      <fieldset>
-      </select>
-      <label>Choose your prefered study background noise.        
-        <input name='group1' value='music' type='radio'>Music
-        <input name='group1' value='tv' type='radio'>TV
-        <input name='group1' value='silence' type='radio'>Silence
-      </label>
-      </fieldset>
-      <fieldset>
-      <label>Where do you like to study? (choose all that apply)</label>
-      <label><input type='checkbox' value='cafe'>Cafe</label>
-      <label><input type='checkbox' value='library'>Library</label> 
-      <label><input type='checkbox' value='home'>Home</label>
-      <label><input type='checkbox' value='school'>School</label>
-      <label><input type='checkbox' value='park'>Park</label> 
-      <label>How often do you study?<textarea placeholder='Type comments here.' ></textarea></label>
-      </fieldset> 
-      <button id='submit' value='submit'>       
-    </form>
+    <div class="background">   
+        <div class="header" >
+            <h1 id='title'>Learning Preference Survey</h1>
+            <p id='description'>How do you like to study English?</p>
+        </div>
+        <form id='survey-form'>
+        <fieldset>
+            <label id='name-label'>Name</label>
+            <input id='name' placeholder='What is your name?' type='text' required>
+            <label id='email-label'>Email</label>
+            <input id='email' placeholder='What is your email?' type='email' required>
+            <label id='number-label'>Age</label>
+            <input id='number' placeholder='How old are you?' type='number' min='18' max='100'>
+        </fieldset>
+        <fieldset>
+        <select id='dropdown'>
+            <option>Select Study Preference</option>
+            <option>Alone</option>
+            <option>face-to-face group</option>
+            <option>Online group</option>
+        </fieldset>
+        <fieldset>
+        </select>
+        <label>Choose your preferred study background noise.        
+            <input name='group1' value='music' type='radio'>Music
+            <input name='group1' value='tv' type='radio'>TV
+            <input name='group1' value='silence' type='radio'>Silence
+        </label>
+        </fieldset>
+        <fieldset>
+        <label>Where do you like to study? (choose all that apply)</label>
+        <label><input type='checkbox' value='cafe'>Cafe</label>
+        <label><input type='checkbox' value='library'>Library</label> 
+        <label><input type='checkbox' value='home'>Home</label>
+        <label><input type='checkbox' value='school'>School</label>
+        <label><input type='checkbox' value='park'>Park</label> 
+        <label>How often do you study?<textarea placeholder='Type comments here.' ></textarea></label>
+        </fieldset> 
+        <button id='submit' value='submit'>       
+        </form>
+        </div>
 </body>
 </html>
