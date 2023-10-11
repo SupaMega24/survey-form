@@ -8,11 +8,12 @@
 </head>
 <body>
     <div class="background">   
-        <div class="header" >
-            <h1 id='title'>Learning Preference Survey</h1>
-            <p id='description'>How do you like to study English?</p>
-        </div>
+        
         <form id='survey-form'>
+            <div class="header" >
+                <h1 id='title'>Learning Preference Survey</h1>
+                <p id='description'>How do you like to study English?</p>
+            </div>
         <fieldset>
             <label id='name-label'>Name</label>
             <input id='name' placeholder='What is your name?' type='text' required>
@@ -31,21 +32,23 @@
         <fieldset>
         </select>
         <label>Choose your preferred study background noise.        
-            <input name='group1' value='music' type='radio'>Music
-            <input name='group1' value='tv' type='radio'>TV
-            <input name='group1' value='silence' type='radio'>Silence
+            <label></label><input name='group1' value='music' type='radio'>Music</label>
+            <label></label><input name='group1' value='tv' type='radio'>TV</label>
+            <label></label><input name='group1' value='silence' type='radio'>Silence</label>
         </label>
         </fieldset>
         <fieldset>
         <label>Where do you like to study? (choose all that apply)</label>
-        <label><input type='checkbox' value='cafe'>Cafe</label>
-        <label><input type='checkbox' value='library'>Library</label> 
-        <label><input type='checkbox' value='home'>Home</label>
-        <label><input type='checkbox' value='school'>School</label>
-        <label><input type='checkbox' value='park'>Park</label> 
-        <label>How often do you study?<textarea placeholder='Type comments here.' ></textarea></label>
+            <label><input type='checkbox' value='cafe'>Cafe</label>
+            <label><input type='checkbox' value='library'>Library</label> 
+            <label><input type='checkbox' value='home'>Home</label>
+            <label><input type='checkbox' value='school'>School</label>
+            <label><input type='checkbox' value='park'>Park</label> 
+            <label>How often do you study?<textarea placeholder='Type comments here.' ></textarea></label>
         </fieldset> 
-        <button id='submit' value='submit'>       
+        <div id="button-container">
+            <button id='submit' value='submit'>Submit</button>  
+        </div>    
         </form>
         </div>
 </body>
